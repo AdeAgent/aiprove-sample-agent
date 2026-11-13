@@ -1,0 +1,13 @@
+{
+  "name": "aiprove-sample-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample AIProve agent: read skill.md, authenticate, list bounties, enter one.",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
